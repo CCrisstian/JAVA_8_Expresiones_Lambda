@@ -35,4 +35,5 @@
 
 <h3 align="center">Consumer </h3>
 <p>"Consumer" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Esta interfaz está diseñada para representar una operación que toma un argumento de entrada y no devuelve ningún resultado. En otras palabras, un "Consumer" representa una función que realiza una acción en un objeto, pero no produce ningún resultado.</p>
+<p>La interfaz "Consumer" tiene un método abstracto llamado "accept(T t)", donde T es el tipo de dato del objeto que se está consumiendo. Este método "accept" es donde se define la acción que el Consumer realizará sobre el objeto de entrada.</p>
 <p>El uso de "Consumer" es común en situaciones donde deseas encapsular una acción que debe realizarse en cada elemento de una colección, o como parte de una cadena de operaciones en un stream. La interfaz funcional "Consumer" es parte de las funciones de alto orden en Java y es esencial para la programación funcional en el lenguaje.</p>
