@@ -50,7 +50,7 @@
 <h2>Function</h2>
 <p>"Function" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Representa una función que toma un argumento de tipo T y devuelve un resultado de tipo R. La interfaz "Function" tiene un método abstracto llamado "apply(T t)", que toma un argumento de tipo T y devuelve un resultado de tipo R.</p>
 
-<img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/70d2799d-9724-4363-9052-06b143a96fe9">
+<p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/70d2799d-9724-4363-9052-06b143a96fe9"></p>
 
 
 -    T: Tipo del argumento de entrada.
