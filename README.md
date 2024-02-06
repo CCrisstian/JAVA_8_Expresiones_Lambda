@@ -36,22 +36,23 @@
 <h2>Consumer </h2>
 <p>"Consumer" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Esta interfaz está diseñada para representar una operación que toma un argumento de entrada y no devuelve ningún resultado. En otras palabras, un "Consumer" representa una función que realiza una acción en un objeto, pero no produce ningún resultado.</p>
 <p>La interfaz "Consumer" tiene un método abstracto llamado "accept(T t)", donde T es el tipo de dato del objeto que se está consumiendo. Este método "accept" es donde se define la acción que el Consumer realizará sobre el objeto de entrada.</p>
+<p align="center"><img width="422" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/4a8c0e88-93e6-4805-81ca-f7b27437fa38"></p>
 <p>El uso de "Consumer" es común en situaciones donde se desea encapsular una acción que debe realizarse en cada elemento de una colección, o como parte de una cadena de operaciones en un stream. La interfaz funcional "Consumer" es parte de las funciones de alto orden en Java y es esencial para la programación funcional en el lenguaje.</p>
 
 <h2 >BiConsumer</h2>
 <p>"BiConsumer" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Al igual que "Consumer", "BiConsumer" representa una operación que toma dos argumentos de entrada y no devuelve ningún resultado.</p>
 <p>La interfaz "BiConsumer" tiene un método abstracto llamado "accept(T t, U u)", donde T y U son los tipos de datos de los dos argumentos que se están consumiendo.</p>
+<p align="center"><img width="490" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/49519673-8682-46a9-abf2-2779e36ea97b"></p>
 <p>"BiConsumer" es útil en situaciones donde necesitas realizar operaciones que involucren dos argumentos, y su uso es común en combinación con colecciones y operaciones en pares de valores. La interfaz funcional "BiConsumer" es parte del conjunto de funciones de alto orden en Java y es esencial para la programación funcional.</p>
 
 <h2>Supplier</h2>
 <p>"Supplier" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Representa un proveedor de resultados, es decir, una operación que no toma argumentos y produce un resultado. La interfaz "Supplier" no tiene ningún método que acepte argumentos, pero tiene un único método abstracto llamado "get()", que devuelve un resultado.</p>
+<p align="center"><img width="438" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/5ff71fc4-403c-49af-962f-6f95f7f2c66c"></p>
 <p>"Supplier" es una herramienta flexible y versátil que se utiliza en situaciones donde necesitas generar o proporcionar valores sin la necesidad de recibir argumentos. Puedes utilizarlo en diversas situaciones, desde la generación de valores aleatorios hasta la creación de instancias de objetos más complejos. La interfaz funcional "Supplier" es parte del conjunto de funciones de alto orden en Java y es esencial para la programación funcional.</p>
 
 <h2>Function</h2>
 <p>"Function" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Representa una función que toma un argumento de tipo T y devuelve un resultado de tipo R. La interfaz "Function" tiene un método abstracto llamado "apply(T t)", que toma un argumento de tipo T y devuelve un resultado de tipo R.</p>
-
 <p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/70d2799d-9724-4363-9052-06b143a96fe9"></p>
-
 
 -    T: Tipo del argumento de entrada.
 -    R: Tipo del resultado.
