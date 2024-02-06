@@ -32,3 +32,7 @@
     -  Java 8 incluyó varias mejoras de rendimiento, como el uso de la interfaz de llamada dinámica (invocación dinámica de métodos), la mejora de los bucles for y la optimización del recolector de basura.
  
 <p>Java 8 marcó un hito significativo en la evolución de Java al introducir características que mejoraron la expresividad del lenguaje y facilitaron la programación funcional.</p>    
+
+<h3 align="center">Consumer </h3>
+<p>"Consumer" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Esta interfaz está diseñada para representar una operación que toma un argumento de entrada y no devuelve ningún resultado. En otras palabras, un "Consumer" representa una función que realiza una acción en un objeto, pero no produce ningún resultado.</p>
+<p>El uso de "Consumer" es común en situaciones donde deseas encapsular una acción que debe realizarse en cada elemento de una colección, o como parte de una cadena de operaciones en un stream. La interfaz funcional "Consumer" es parte de las funciones de alto orden en Java y es esencial para la programación funcional en el lenguaje.</p>
