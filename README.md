@@ -61,7 +61,6 @@
 
 <h2>BiFunction</h2>
 <p>"BiFunction" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Esta interfaz representa una función que toma dos argumentos de entrada de tipos T y U, realiza un cálculo y devuelve un resultado de tipo R. Es similar a la interfaz "Function", pero toma dos argumentos en lugar de uno.</p>
-
 <p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/053c1ec0-cfea-44de-9e82-11391cc8c3be"></p>
 
 -    T: Tipo del primer argumento.
@@ -70,3 +69,19 @@
 
 <p>"BiFunction" es útil en situaciones donde se necesita una función que tome dos argumentos y produzca un resultado, y se utiliza en programación funcional y en el manejo de colecciones utilizando streams.</p>
 
+<h2>Predicate</h2>
+<p>En Java, la interfaz funcional "Predicate" se encuentra en el paquete "java.util.function" y se utiliza para representar una condición o predicado que puede ser evaluado como verdadero o falso. Esta interfaz tiene un único método abstracto llamado "test", que toma un argumento de tipo T y devuelve un valor booleano.</p>
+<p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/9ea6fcee-0bba-4997-9fc5-2fd840e3511c"></p>
+
+-    T: Tipo del argumento que se evaluará.
+
+<p>Predicate es una herramienta útil para escribir expresiones condicionales más legibles y concisas en Java, especialmente cuando se trabaja con colecciones y operaciones de filtrado</p>
+
+<h2>BiPredicate</h2>
+<p>"BiPredicate" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Al igual que "Predicate", "BiPredicate" se utiliza para representar una condición o predicado que puede ser evaluado como verdadero o falso. La diferencia principal es que "BiPredicate" toma dos argumentos de entrada (T y U) en lugar de uno. Esta interfaz tiene un único método abstracto llamado "test", que toma dos argumentos y devuelve un valor booleano.</p>
+<p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/20af8293-a286-4c82-a6e0-9a9c455f94ba"></p>
+
+-    T: Tipo del primer argumento.
+-    U: Tipo del segundo argumento.
+
+<p>"BiPredicate" es útil en situaciones donde se necesita evaluar condiciones que involucren dos argumentos y devolver un valor booleano. Se puede utilizar para expresar lógica condicional de manera más clara y concisa en el código.</p>
