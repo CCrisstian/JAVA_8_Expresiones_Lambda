@@ -58,3 +58,15 @@
 -    R: Tipo del resultado.
 
 <p>Function es una herramienta versátil que se utiliza para representar funciones en programación funcional y se integra bien con el manejo de colecciones utilizando streams. Puede ser utilizada en una variedad de situaciones donde se necesita transformar un tipo de dato en otro.</p>
+
+<h2>BiFunction</h2>
+<p>"BiFunction" es una interfaz funcional en Java que se encuentra en el paquete "java.util.function". Esta interfaz representa una función que toma dos argumentos de entrada de tipos T y U, realiza un cálculo y devuelve un resultado de tipo R. Es similar a la interfaz "Function", pero toma dos argumentos en lugar de uno.</p>
+
+<p align="center"><img width="488" alt="image" src="https://github.com/CCrisstian/JAVA_8_LAMBDA/assets/111469216/053c1ec0-cfea-44de-9e82-11391cc8c3be"></p>
+
+-    T: Tipo del primer argumento.
+-    U: Tipo del segundo argumento.
+-    R: Tipo del resultado.
+
+<p>"BiFunction" es útil en situaciones donde se necesita una función que tome dos argumentos y produzca un resultado, y se utiliza en programación funcional y en el manejo de colecciones utilizando streams.</p>
+
