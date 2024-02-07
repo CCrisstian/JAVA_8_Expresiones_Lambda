@@ -1,7 +1,6 @@
 package org.CCristian.JAVA_8.LAMBDA.ARITMETICA;
 
 import java.util.function.BiFunction;
-import java.util.function.BiPredicate;
 
 public class Calculadora{
 
