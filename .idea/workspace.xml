@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c6f1756-f8aa-499a-826b-fe125adebd92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/Ejemplo_CONSUMER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/Ejemplo_FUNCTIONS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/MODELS/Usuario.java" afterDir="false" />
+    <list default="true" id="7c6f1756-f8aa-499a-826b-fe125adebd92" name="Changes" comment="Primeros ejemplos de expresiones LAMBDA">
+      <change afterPath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/Ejemplo_PREDICATE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_8.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/Ejemplo_FUNCTIONS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/CCristian/JAVA_8/LAMBDA/Ejemplo_FUNCTIONS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2bzgZ9U1CUh1FnBcdvkS9SvXQ1j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,6 +39,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Ejemplo_CONSUMER.executor": "Run",
+    "Application.Ejemplo_FUNCTIONS.executor": "Run",
+    "Application.Ejemplo_PREDICATE.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,6 +64,15 @@
       <option name="presentableId" value="Default" />
       <updated>1707223376939</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeros ejemplos de expresiones LAMBDA">
+      <option name="closed" value="true" />
+      <created>1707231298162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707231298162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeros ejemplos de expresiones LAMBDA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeros ejemplos de expresiones LAMBDA" />
   </component>
 </project>
